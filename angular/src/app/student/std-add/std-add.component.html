@@ -1,0 +1,7 @@
+<div class="mx-3">
+  <h1>Add New Student</h1>
+  <input type="text" [(ngModel)]="std._id" placeholder="id">
+  <input type="text" [(ngModel)]="std.stdname" placeholder="name">
+  <input type="text" [(ngModel)]="std.age" placeholder="age">
+  <button class="btn btn-outline-primary m-1" routerLink="/students" (click)=save()>Save </button>
+</div>

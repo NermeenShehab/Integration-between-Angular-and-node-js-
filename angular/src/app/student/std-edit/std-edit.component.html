@@ -1,0 +1,7 @@
+<div class="m-3">
+  <h2>Edit Std</h2>
+  <input type="text" [(ngModel)]="stdServe.stdEdit.stdname" placeholder="name">
+  <input type="text" [(ngModel)]="stdServe.stdEdit.age" placeholder="age">
+
+  <button class="btn btn-outline-primary m-1" routerLink="/students" (click)="stdServe.save(stdServe.stdEdit._id)">save</button>
+</div>

@@ -1,0 +1,34 @@
+.section1 {
+    margin-bottom: 9.375rem;
+}
+
+.section1 .row div {
+    padding: 1.25rem;
+}
+
+#ddh6 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#dp1 {
+    color: #4141f6;
+}
+
+.section1 .card-body {
+    background-color: rgb(230, 230, 230);
+    padding: 1.875rem;
+    margin-top: -2.5rem;
+}
+
+.section1 .row p::before {
+    content: "_________";
+}
+
+.section1 .row p {
+    color: #4141f6;
+}
+
+.section1 .row a {
+    padding-left: 1.25rem;
+}
